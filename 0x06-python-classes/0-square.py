@@ -1,5 +1,9 @@
 #!/bin/usr/python3
 
+'''
+define a class Square
+'''
+
 class Square:
 '''
 Square is a class definition for
