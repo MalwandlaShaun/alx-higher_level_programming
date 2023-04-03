@@ -1,25 +1,25 @@
 #!/usr/bin/python3
 
 class Square:
-'''
-Square is class definition for creating objects
-
-__init__ is the constructor and size is the parameter
-
-@property is acting as our getter for our size method
-
-@size.setter is acting as our setter for our size method
-
-@property is acting as our getter for our position method
-
-@size.setter is acting as our setter for out position method
-
-area is class method that returns an integer value
-of the area
-
-my_print class method that prints in stdout the square 
-with the character #
-'''
+    '''
+    Square is class definition for creating objects
+    
+    __init__ is the constructor and size is the parameter
+    
+    @property is acting as our getter for our size method
+    
+    @size.setter is acting as our setter for our size method
+        
+    @property is acting as our getter for our position method
+    
+    @size.setter is acting as our setter for out position method
+    
+    area is class method that returns an integer value
+    of the area
+    
+    my_print class method that prints in stdout the square 
+    with the character #
+    '''
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
         self.position = position
