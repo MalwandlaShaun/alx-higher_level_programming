@@ -3,7 +3,7 @@
 class Square:
     '''
     Square is a class definition
-    
+
     __size is a private instance attribute
     '''
 
