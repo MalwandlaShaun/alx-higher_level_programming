@@ -1,15 +1,15 @@
 #!/usr/bin/python3
+"""Define a class Square."""
+
 
 class Square:
-    '''
-    Square is class definition for creating objects
-    
-    __init__ is the constructor and size is it's parameter
-    
-    area is the class method which evaluates the area expression
-    and return an integer value
-    '''
+    """Represent a square."""
+
     def __init__(self, size=0):
+        """Initialize a new square.
+        Args:
+            size (int): The size of the new square.
+        """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
@@ -17,4 +17,5 @@ class Square:
         self.__size = size
 
     def area(self):
+        """Return the current area of the square."""
         return (self.__size * self.__size)
